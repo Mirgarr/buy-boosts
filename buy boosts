@@ -2,18 +2,18 @@
 
 
 
-_G.Buyx1LuckyBoost = false
-_G.Buyx2LuckyBoosts = false
-_G.BuyEventSuperLuckyBoost = false
-_G.Buyx1SuperLuckyBoost = false
-_G.Buyx2SuperLuckyBoosts = false
-_G.BuyEventOmegaLuckyBoost = false
-_G.Buy1xOmegaLuckyBoost = false
-_G.Buy2xOmegaLuckyBoosts = false
-_G.Buy1xBigEarnBoost = false
-_G.Buy2xBigEarnBoosts = false
-_G.Buy1xSuperRichBoost = false
-_G.Buy2xSuperRichBoosts = false
+_G.Buyx1LuckyBoost = true -- Replace "false" to true if you wanna buy 1 lucky boost
+_G.Buyx2LuckyBoosts = true -- Replace "false" to true if you wanna buy 2 lucky boosts
+_G.BuyEventSuperLuckyBoost = true -- Replace "false" to true if you wanna buy the event 20 mins super lucky boosts
+_G.Buyx1SuperLuckyBoost = true -- Replace "false" to true if you wanna buy 1 super lucky boost
+_G.Buyx2SuperLuckyBoosts = true -- Replace "false" to true if you wanna buy 2 super lucky boosts
+_G.BuyEventOmegaLuckyBoost = true -- Replace "false" to true if you wanna buy the event 10 mins omega lucky boosts
+_G.Buy1xOmegaLuckyBoost = true -- Replace "false" to true if you wanna buy 1 omega lucky boost
+_G.Buy2xOmegaLuckyBoosts = true -- Replace "false" to true if you wanna buy 2 omega lucky boosts
+_G.Buy1xBigEarnBoost = true -- Replace "false" to true if you wanna buy 1 big earn boost
+_G.Buy2xBigEarnBoosts = true -- Replace "false" to true if you wanna buy 2 big earn boost
+_G.Buy1xSuperRichBoost = true -- Replace "false" to true if you wanna buy 1 rich boost
+_G.Buy2xSuperRichBoosts = true -- Replace "false" to true if you wanna buy 2 rich boosts
 
 
 
