@@ -1,0 +1,211 @@
+-- Allows you to buy the mining simulator boosts.
+
+
+
+_G.Buyx1LuckyBoost = false
+_G.Buyx2LuckyBoosts = false
+_G.BuyEventSuperLuckyBoost = false
+_G.Buyx1SuperLuckyBoost = false
+_G.Buyx2SuperLuckyBoosts = false
+_G.BuyEventOmegaLuckyBoost = false
+_G.Buy1xOmegaLuckyBoost = false
+_G.Buy2xOmegaLuckyBoosts = false
+_G.Buy1xBigEarnBoost = false
+_G.Buy2xBigEarnBoosts = false
+_G.Buy1xSuperRichBoost = false
+_G.Buy2xSuperRichBoosts = false
+
+
+
+
+
+-- To buy 1x Lucky Boost.
+
+
+
+
+spawn(function()
+    while wait() do 
+        if not _G.Buyx1LuckyBoost then break end;
+local args = {[1] = "Lucky",[2] = 1}
+game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
+    end
+    end)
+
+
+
+
+    -- To buy 2x Lucky Boost.
+
+
+
+
+spawn(function()
+    while wait() do 
+        if not _G.Buyx2LuckyBoosts then break end;
+local args = {[1] = "Lucky",[2] = 2}
+game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
+    end
+    end)
+
+
+
+
+-- To buy the event Super Lucky boost.
+
+
+
+
+spawn(function()
+    while wait() do 
+        if not _G.BuyEventSuperLuckyBoost then break end;
+local args = {[1] = "boost1"}
+game:GetService("ReplicatedStorage").Events.BuyEventShopItem:FireServer(unpack(args))
+
+    end
+    end)
+
+
+
+
+    -- To buy 1 super lucky boost
+
+
+
+
+    spawn(function()
+        while wait() do 
+            if not _G.Buyx1SuperLuckyBoost then break end;
+local args = {[1] = "Super Lucky",[2] = 1}
+game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
+end
+end)
+
+
+
+
+-- To buy 2 super Lucky boosts
+
+
+
+
+spawn(function()
+    while wait() do 
+        if not _G.Buyx2SuperLuckyBoosts then break end;
+local args = {[1] = "Super Lucky",[2] = 2}
+game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
+end
+end)
+
+
+
+
+    -- To buy the 10 mins event Omega Lucky boost
+
+
+
+
+    spawn(function()
+        while wait() do 
+            if not _G.BuyEventOmegaLuckyBoost then break end;
+local args = {[1] = "boost2"}
+game:GetService("ReplicatedStorage").Events.BuyEventShopItem:FireServer(unpack(args))
+        end
+        end)
+
+
+
+-- To buy 1 omega lucky boost on shop
+
+
+
+
+        spawn(function()
+            while wait() do 
+                if not _G.Buy1xOmegaLuckyBoost then break end;
+local args = {[1] = "Omega Lucky",[2] = 1}
+game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
+
+            end
+            end)
+
+
+
+
+-- To buy 2 omega lucky boosts on shop
+
+
+
+
+            spawn(function()
+                while wait() do 
+                    if not _G.Buy2xOmegaLuckyBoosts then break end;
+local args = {[1] = "Omega Lucky",[2] = 2}
+game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
+end
+end)
+
+
+
+-- To buy 1 big earn boost
+
+
+
+
+spawn(function()
+    while wait() do 
+        if not _G.Buy1xBigEarnBoost then break end;
+        local args = {[1] = "Big Earner",[2] = 1}
+        game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
+end
+end)
+
+
+
+-- To buy 2 big earn boosts
+
+
+
+
+spawn(function()
+    while wait() do 
+        if not _G.Buy2xBigEarnBoosts then break end;
+local args = {[1] = "Big Earner",[2] = 2}
+game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
+end
+end)
+
+
+
+
+
+-- To buy 1 super richs boost
+
+
+
+
+spawn(function()
+    while wait() do 
+        if not _G.Buy1xSuperRichBoost then break end;
+local args = {[1] = "Super Rich",[2] = 1}
+game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
+end
+end)
+
+
+
+
+
+-- To buy 2 super richs boosts
+
+
+
+
+
+spawn(function()
+    while wait() do 
+        if not _G.Buy2xSuperRichBoosts then break end;
+local args = {[1] = "Super Rich",[2] = 2}
+game:GetService("ReplicatedStorage").Events.BuyBoost:FireServer(unpack(args))
+end
+end)
